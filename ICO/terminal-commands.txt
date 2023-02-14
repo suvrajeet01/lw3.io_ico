@@ -9379,3 +9379,176 @@ D:\web3\web3_learn>
 
 
 
+Microsoft Windows [Version 10.0.22621.1105]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\suv>git clone https://github.com/suvrajeet01/lw3.io_ico.git
+Cloning into 'lw3.io_ico'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+
+C:\suv>
+C:\suv>git status
+fatal: not a git repository (or any of the parent directories): .git
+
+C:\suv>cd lw3.io_ico
+
+C:\suv\lw3.io_ico>git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ICO/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\suv\lw3.io_ico>git add .
+warning: LF will be replaced by CRLF in ICO/hardhat-tutorial/.gitignore.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in ICO/hardhat-tutorial/README.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in ICO/hardhat-tutorial/contracts/Lock.sol.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in ICO/hardhat-tutorial/hardhat.config.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in ICO/hardhat-tutorial/package-lock.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in ICO/hardhat-tutorial/package.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in ICO/hardhat-tutorial/scripts/deploy.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in ICO/hardhat-tutorial/test/Lock.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in ICO/my-app/.gitignore.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in ICO/my-app/README.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in ICO/my-app/jsconfig.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in ICO/my-app/next.config.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in ICO/my-app/package-lock.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in ICO/my-app/package.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in ICO/my-app/pages/_app.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in ICO/my-app/pages/_document.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in ICO/my-app/pages/api/hello.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in ICO/my-app/pages/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in ICO/my-app/styles/Home.module.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in ICO/my-app/styles/globals.css.
+The file will have its original line endings in your working directory
+
+C:\suv\lw3.io_ico>git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   ICO/CryptoDevToken Contract Address.txt
+        new file:   ICO/hardhat-tutorial/.gitignore
+        new file:   ICO/hardhat-tutorial/README.md
+        new file:   ICO/hardhat-tutorial/constants/index.js
+        new file:   ICO/hardhat-tutorial/contracts/CryptoDevToken.sol
+        new file:   ICO/hardhat-tutorial/contracts/ICryptoDevs.sol
+        new file:   ICO/hardhat-tutorial/contracts/Lock.sol
+        new file:   ICO/hardhat-tutorial/hardhat.config.js
+        new file:   ICO/hardhat-tutorial/package-lock.json
+        new file:   ICO/hardhat-tutorial/package.json
+        new file:   ICO/hardhat-tutorial/scripts/deploy.js
+        new file:   ICO/hardhat-tutorial/test/Lock.js
+        new file:   ICO/my-app/.gitignore
+        new file:   ICO/my-app/README.md
+        new file:   ICO/my-app/constants/index.js
+        new file:   ICO/my-app/jsconfig.json
+        new file:   ICO/my-app/next.config.js
+        new file:   ICO/my-app/package-lock.json
+        new file:   ICO/my-app/package.json
+        new file:   ICO/my-app/pages/_app.js
+        new file:   ICO/my-app/pages/_document.js
+        new file:   ICO/my-app/pages/api/hello.js
+        new file:   ICO/my-app/pages/index.js
+        new file:   ICO/my-app/public/0.svg
+        new file:   ICO/my-app/public/favicon.ico
+        new file:   ICO/my-app/public/next.svg
+        new file:   ICO/my-app/public/thirteen.svg
+        new file:   ICO/my-app/public/vercel.svg
+        new file:   ICO/my-app/styles/Home.module.css
+        new file:   ICO/my-app/styles/globals.css
+        new file:   ICO/terminal-commands.txt
+
+
+C:\suv\lw3.io_ico>git commit -m "ico"
+[trunk 2aab9c8] ico
+ 31 files changed, 23199 insertions(+)
+ create mode 100644 ICO/CryptoDevToken Contract Address.txt
+ create mode 100644 ICO/hardhat-tutorial/.gitignore
+ create mode 100644 ICO/hardhat-tutorial/README.md
+ create mode 100644 ICO/hardhat-tutorial/constants/index.js
+ create mode 100644 ICO/hardhat-tutorial/contracts/CryptoDevToken.sol
+ create mode 100644 ICO/hardhat-tutorial/contracts/ICryptoDevs.sol
+ create mode 100644 ICO/hardhat-tutorial/contracts/Lock.sol
+ create mode 100644 ICO/hardhat-tutorial/hardhat.config.js
+ create mode 100644 ICO/hardhat-tutorial/package-lock.json
+ create mode 100644 ICO/hardhat-tutorial/package.json
+ create mode 100644 ICO/hardhat-tutorial/scripts/deploy.js
+ create mode 100644 ICO/hardhat-tutorial/test/Lock.js
+ create mode 100644 ICO/my-app/.gitignore
+ create mode 100644 ICO/my-app/README.md
+ create mode 100644 ICO/my-app/constants/index.js
+ create mode 100644 ICO/my-app/jsconfig.json
+ create mode 100644 ICO/my-app/next.config.js
+ create mode 100644 ICO/my-app/package-lock.json
+ create mode 100644 ICO/my-app/package.json
+ create mode 100644 ICO/my-app/pages/_app.js
+ create mode 100644 ICO/my-app/pages/_document.js
+ create mode 100644 ICO/my-app/pages/api/hello.js
+ create mode 100644 ICO/my-app/pages/index.js
+ create mode 100644 ICO/my-app/public/0.svg
+ create mode 100644 ICO/my-app/public/favicon.ico
+ create mode 100644 ICO/my-app/public/next.svg
+ create mode 100644 ICO/my-app/public/thirteen.svg
+ create mode 100644 ICO/my-app/public/vercel.svg
+ create mode 100644 ICO/my-app/styles/Home.module.css
+ create mode 100644 ICO/my-app/styles/globals.css
+ create mode 100644 ICO/terminal-commands.txt
+
+C:\suv\lw3.io_ico>git status
+On branch trunk
+Your branch is ahead of 'origin/trunk' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+C:\suv\lw3.io_ico>
+C:\suv\lw3.io_ico>git push
+Enumerating objects: 46, done.
+Counting objects: 100% (46/46), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (40/40), done.
+Writing objects: 100% (45/45), 177.35 KiB | 3.94 MiB/s, done.
+Total 45 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/suvrajeet01/lw3.io_ico.git
+   7605b63..2aab9c8  trunk -> trunk
+
+C:\suv\lw3.io_ico>git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+nothing to commit, working tree clean
+
+C:\suv\lw3.io_ico>
+
+
+
+
+
