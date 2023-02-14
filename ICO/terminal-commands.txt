@@ -9548,7 +9548,55 @@ nothing to commit, working tree clean
 
 C:\suv\lw3.io_ico>
 
+C:\suv\lw3.io_ico>git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
 
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   ICO/terminal-commands.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\suv\lw3.io_ico>cd ICO
+
+C:\suv\lw3.io_ico\ICO>git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   terminal-commands.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\suv\lw3.io_ico\ICO>git add .
+
+C:\suv\lw3.io_ico\ICO>git commit -m "terminal-commands"
+[trunk 873eb31] terminal-commands
+ 1 file changed, 173 insertions(+)
+
+C:\suv\lw3.io_ico\ICO>git status
+On branch trunk
+Your branch is ahead of 'origin/trunk' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+C:\suv\lw3.io_ico\ICO>git push
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 1.49 KiB | 117.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/suvrajeet01/lw3.io_ico.git
+   2aab9c8..873eb31  trunk -> trunk
+
+C:\suv\lw3.io_ico\ICO>
 
 
 
